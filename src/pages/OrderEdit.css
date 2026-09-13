@@ -1,0 +1,176 @@
+.order-edit__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.order-edit__title {
+  font-weight: 700;
+}
+
+.order-edit__breadcrumb-home {
+  display: flex;
+  align-items: center;
+}
+
+.order-edit__breadcrumb-current {
+  font-weight: 600;
+}
+
+.order-edit__card {
+  padding: 24px;
+  margin-bottom: 24px;
+}
+
+.order-edit__section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.order-edit__section-title {
+  font-weight: 700;
+}
+
+.order-edit__product-search-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+  gap: 16px;
+}
+
+.order-edit__autocomplete {
+  width: 320px;
+}
+
+.order-edit__product-error {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.order-edit__table-container {
+  overflow-x: auto;
+}
+
+.order-edit__head-cell {
+  font-weight: 700;
+}
+
+.order-edit__product-name-cell {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.order-edit__product-thumb {
+  width: 36px;
+  height: 36px;
+  border-radius: 6px;
+  background-color: #e3e8ef;
+}
+
+.order-edit__qty-controls {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.order-edit__qty-btn {
+  border: 1px solid #e3e8ef;
+}
+
+.order-edit__qty-field {
+  width: 56px;
+}
+
+.order-edit__qty-field input {
+  text-align: center;
+}
+
+.order-edit__empty-state {
+  text-align: center;
+  padding: 48px 0;
+}
+
+.order-edit__empty-title {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.order-edit__divider {
+  margin: 16px 0;
+}
+
+.order-edit__total-row {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.order-edit__total-text {
+  font-weight: 700;
+}
+
+.order-edit__form-title {
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.order-edit__form-grid-2 {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+@media (min-width: 600px) {
+  .order-edit__form-grid-2 {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.order-edit__form-grid-3 {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+@media (min-width: 600px) {
+  .order-edit__form-grid-3 {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+.order-edit__field-label {
+  margin-bottom: 4px;
+}
+
+.order-edit__required-mark {
+  color: #f44336;
+}
+
+.order-edit__field-group {
+  margin-bottom: 16px;
+}
+
+.order-edit__placeholder-text {
+  color: rgba(0, 0, 0, 0.38);
+}
+
+.order-edit__field-error {
+  margin-top: 4px;
+  margin-left: 12px;
+}
+
+.order-edit__payment-field {
+  margin-bottom: 24px;
+}
+
+.order-edit__footer-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 16px;
+}

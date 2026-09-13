@@ -1,0 +1,20 @@
+.customer-list__header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; }
+.customer-list__title { font-weight: 700; }
+.customer-list__card { padding: 24px; }
+.customer-list__toolbar { margin-bottom: 16px; display: flex; justify-content: space-between; }
+.customer-list__toolbar-text { font-weight: 600; }
+.customer-list__filters { display: flex; flex-direction: column; justify-content: space-between; align-items: stretch; margin-bottom: 16px; gap: 16px; }
+@media (min-width: 600px) { .customer-list__filters { flex-direction: row; align-items: center; } }
+.customer-list__search { width: 100%; }
+@media (min-width: 600px) { .customer-list__search { width: 320px; } }
+.customer-list__actions { display: flex; gap: 12px; flex-wrap: wrap; }
+.customer-list__table-container { overflow-x: auto; }
+.customer-list__head-cell { font-weight: 700; }
+.customer-list__name-cell { display: flex; align-items: center; gap: 12px; cursor: pointer; }
+.customer-list__name { font-weight: 600; }
+.customer-list__name:hover { text-decoration: underline; color: #2196f3; }
+.customer-list__status-chip { font-weight: 600; }
+.customer-list__empty-cell { padding-top: 32px; padding-bottom: 32px; color: #697586; }
+.customer-list__menu-delete { color: #f44336; }
+.customer-list__footer { display: flex; justify-content: flex-end; align-items: center; gap: 16px; margin-top: 16px; }
+.customer-list__rows-select { min-width: 70px; }
