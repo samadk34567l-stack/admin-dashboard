@@ -1,0 +1,71 @@
+.user-profile__back-btn {
+  margin-top: 16px;
+}
+
+.user-profile__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.user-profile__title {
+  font-weight: 700;
+}
+
+.user-profile__breadcrumb-link {
+  cursor: pointer;
+}
+
+.user-profile__back-to-list {
+  margin-bottom: 16px;
+}
+
+.user-profile__card {
+  padding: 32px;
+}
+
+.user-profile__top {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin-bottom: 24px;
+}
+
+.user-profile__avatar {
+  width: 96px;
+  height: 96px;
+}
+
+.user-profile__name-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.user-profile__name {
+  font-weight: 700;
+}
+
+.user-profile__verified-icon {
+  color: #4caf50;
+}
+
+.user-profile__status-chip {
+  margin-top: 8px;
+  font-weight: 600;
+}
+
+.user-profile__divider {
+  margin-bottom: 24px;
+}
+
+.user-profile__info-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.user-profile__info-value {
+  font-weight: 600;
+}
